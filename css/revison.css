@@ -1,0 +1,22 @@
+
+
+h1{
+			size: 12px;
+			font-size: 15 ;
+			font-family: arial;
+			border: 2px solid red;
+
+		}
+		h2{
+			size: 12px;
+			font-size: 15 ;
+			font-family: arial;
+			border: solid;
+			background-color: red;
+		}
+		button{
+			font-weight: bold;
+			font-color:red;
+			background-color: blue;
+
+		}

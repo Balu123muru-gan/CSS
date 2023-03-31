@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>css img</title>
+	<style type="text/css">
+		img{
+			width: 200px;
+			background-image: url(D:/balu.jpg);
+			height: auto;
+			border-radius: 50%;
+			border: 5px dashed red;
+			outline-offset: 10px;
+			margin-left: 100px;
+			margin-top: 100px;
+			float: none;
+			box-shadow: 0px 0px 15px 40px dimgray;
+			position: relative;
+			animation-name: balu;
+			animation-duration: 5s;
+			animation-direction: alternate;
+			animation-timing-function: ease-in;
+			animation-iteration-count: infinite;
+     }
+     @keyframes balu
+     {
+        from{left:0px;top:0px; transform: rotate(200deg);}
+        to{left:1100px;top:500px; transform: rotate(359deg);}
+        
+     }
+		
+
+
+
+
+	</style>
+</head>
+<body>
+	<img src="D:\balu.jpg">
+
+</body>
+</html>
